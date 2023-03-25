@@ -12,9 +12,9 @@ import Menu from './components/Menu.vue'
       </ALayoutHeader>
       <ALayout style="padding: 24px;">
         <ALayoutContent>
-          <KeepAlive>
-            <RouterView />
-          </KeepAlive>
+
+          <RouterView />
+
         </ALayoutContent>
         <ALayoutFooter>code by youlanqiang</ALayoutFooter>
       </ALayout>
