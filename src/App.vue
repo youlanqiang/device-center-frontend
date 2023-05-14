@@ -52,6 +52,7 @@ import Menu from './components/Menu.vue'
   font-weight: 400;
   font-size: 14px;
   line-height: 48px;
+  text-align: center;
 }
 
 .layout :deep(.arco-layout-content) {
@@ -61,13 +62,11 @@ import Menu from './components/Menu.vue'
   background: var(--color-bg-3);
 }
 
-.layout :deep(.arco-layout-footer),
 .layout :deep(.arco-layout-content) {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   font-size: 16px;
   font-stretch: condensed;
-  text-align: center;
+  padding: 14px;
 }
 </style>

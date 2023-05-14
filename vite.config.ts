@@ -9,6 +9,7 @@ export default defineConfig(({ command, mode }) => {
   return {
     plugins: [vue()], define: {
       'process.env': {}
-    }
+    },
+
   }
 })
